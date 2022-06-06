@@ -61,3 +61,20 @@
         justify-content: center;
     }
 }
+@media (max-width: 432px) {
+    .my-skills{
+        height: fit-content;
+    }
+    .my-skills__skills{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+    .my-skills h2{
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+    .my-skills::after{
+        display: none;
+    }
+}

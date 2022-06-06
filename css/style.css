@@ -11,11 +11,35 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #fff;
 }
+body{
+    background-color: #202020;
+}
 a{
     text-decoration: none;
     color: inherit;
 }
-
-body{
-    background-color: #202020;
+section{
+    height: 100vh;
+}
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.up{
+    position: fixed;
+    color: #fff;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 50%;
+    background-color: #3d3d3d;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.up:hover{
+    opacity: 0.5;
 }
