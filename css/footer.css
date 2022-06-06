@@ -1,0 +1,25 @@
+footer{
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    align-items: center;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+footer nav{
+    font-size: 16px;
+}
+footer a{
+    position: relative;
+    padding: 5px;
+}
+footer a:hover::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 1px;
+    background-color: #00add8;
+    border-radius: 5px;
+}
